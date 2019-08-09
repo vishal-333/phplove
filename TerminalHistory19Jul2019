@@ -1,0 +1,143 @@
+   24  cd /var/www/html/
+   25  dir
+   26  clear
+   27  cd /var/www/html/
+   28  cd cake1/
+   29  cd
+   30  help chown
+   31  chown help
+   32  chown /?
+   33  chown --help
+   34  cd /var/www/html/
+   35  cd
+   36  sudo cp /home/vishal/Downloads/cake1 /var/www/html
+   37  sudo cp -r /home/vishal/Downloads/cake1 /var/www/html
+   38  clear
+   39  chown -R www-data app/tmp
+   40  clear
+   41  sudo chown -R www-data /var/www/html/cake1/
+   42  ls -a
+   43  cd /var/www/html/
+   44  ls -a
+   45  ls -larh
+   46  cd /var/www/html/cake1/
+   47  subl
+   48  sudo systemctl status apache2
+   49  sudo ufw status
+   50  sudo ufw allow 'Apache Full'
+   51  sudo ufw status
+   52  sudo ufw app list
+   53  xd /etc/apache2/sites-available/
+   54  cd /etc/apache2/sites-available/
+   55  ls
+   56  man cp
+   57  sudo cp 000-default.conf cakeblog.dev.com
+   58  sudo subl cakeblog.dev.com 
+   59  sudo mv cakeblog.dev.com cakeblog.dev.com.conf
+   60  sudo service apache2 restart 
+   61  sudo subl /etc/hosts
+   62  sudo service apache2 restart 
+   63  cd
+   64  cd /var/www/html/
+   65  ls
+   66  mv cake1/ cakeblog
+   67  sudo mv cake1/ cakeblog
+   68  ls
+   69  cd ezcontacts/
+   70  ls
+   71  cd
+   72  sudo
+   73  sudo a2ensite cakeblog.dev.com
+   74  sudo a2enconf cakeblog.dev.com.conf
+   75  sudo a2ensite cakeblog.dev.com.conf
+   76  cd /var/www/html/cakeblog/
+   77  subl
+   78  subl 
+   79  subl .
+   80  cd /etc/
+   81  ls
+   82  cd
+   83  history
+   82  cd
+   83  history
+   84  apache log
+   85  cd /var/www/html/cakeblog/
+   86  sudo chmod 777 -R tmp
+   87  cd app
+   88  sudo chmod 777 -R tmp
+   89  history
+
+     107  apache log
+  108  cd /var/www/html/cakeblog/
+  109  sudo chmod 777 -R tmp
+  110  cd app
+  111  sudo chmod 777 -R tmp
+  112  history
+  113  cd /var/www/html/cakeblog/
+  114  subl 
+  115  cd
+  116  /etc/apache2/
+  117  cd /etc/apache2/
+  118  ls
+  119  clear 
+  120  cd
+  121  sudo tail /var/log/apache2
+  122  sudo tail /var/log/apache2/error.log
+  123  su mahesh
+  124  cd /etc/apache2/
+  125  subl apache2.conf
+  126  ls
+  127  ls /etc/apache2/sites-enabled/
+  128  sudo a2dissite cakeblog.dev.com.conf 
+  129  sudo nano /etc/apache2/sites-enabled/cake-blog.dev.com.conf 
+  130  subl apache2.conf
+  131  sudo service apache2 restart 
+  132  sudo nano /etc/apache2/sites-enabled/cake-blog.dev.com.conf 
+  133  sudo service apache2 restart 
+  134  sudo nano /etc/apache2/sites-enabled/cake-blog.dev.com.conf 
+  135  sudo service apache2 restart 
+  136  sudo a2dissite 000-default.conf 
+  137  sudo service apache2 restart 
+  138  sudo a2ensite 000-default.conf 
+  139  sudo service apache2 restart 
+  140  sudo a2enmod rewrite
+  141  sudo service apache2 restart 
+  142  cd /var/www/html/cakeblog/
+  143  subl 
+  144  cd /var/www/html/cakeblog/
+  145  subl
+  146  cd /var/www/html/cakeblog/
+  147  subl 
+  148  history
+  149  cd subl /etc/apache2/sites-enabled/cake-blog.dev.com.conf
+  150  sudo subl /etc/apache2/sites-enabled/cake-blog.dev.com.conf
+  151  ssh mahesh@192.168.1.165
+  152  cd /var/www/html/cakeblog/
+  153  subl
+  154  cd
+  155  sudo a2ensite ezcontacts.sanisoft.com.conf 
+  156  systemctl reload apache2
+  157  sudo a2dissite ezcontacts.sanisoft.com.conf 
+  158  systemctl reload apache2
+  159  ssh mahesh@192.168.1.165
+  160  cd /var/www/html/cakeblog/
+  161  subl
+  162  ifconfig
+  163  ssh mahesh@192.168.1.165
+  164  ssh-keygen -f "/home/vishal/.ssh/known_hosts" -R "192.168.1.165"
+  165  ssh mahesh@192.168.1.165
+  166  cd /var/www/html/
+  167  cd cakeblog/
+  168  subl
+  169  PHP - A
+  170  php -a
+  171  cd /Downloads
+  172  cd /Download
+  173  ls
+  174  cd Downloads/
+  175  ls
+  176  mysql -u root -p
+  177  history
+
+
+

@@ -1,0 +1,16 @@
+
+<?php 
+	echo $this->element('helpbox', array(
+    									"helptext" => "Oh, this text is very helpful."
+	));
+
+
+
+<!-- <div id='message'>
+	<?php //$this->fetch('flashmessage');?>
+</div>
+ -->
+
+//echo $this->Session->flash('flash', array('element' => 'error'));
+//echo $this->Session->flash('flash', array('element' => 'success'));
+
